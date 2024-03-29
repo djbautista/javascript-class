@@ -11,22 +11,24 @@ const variantClasses = {
   transparent: 'bg-transparent text-neutral-100',
 };
 
-const Card = forwardRef(
-  ({ className, children, variant = 'primary', ...props }: CardProps, ref) => {
-    return (
-      <div
-        {...props}
-        ref={ref as any}
-        className={classnames(
-          ['shadow-lg', 'rounded-lg', 'p-4 md:p-8'],
-          variantClasses[variant],
-          className,
-        )}
-      >
-        {children}
-      </div>
-    );
-  },
-);
+const Card = ({
+  className,
+  children,
+  variant = 'primary',
+  ...props
+}: CardProps) => {
+  return (
+    <div
+      {...props}
+      className={classnames(
+        ['shadow-lg', 'rounded-lg', 'p-4 md:p-8'],
+        variantClasses[variant],
+        className,
+      )}
+    >
+      {children}
+    </div>
+  );
+};
 
 export default Card;

@@ -10,11 +10,12 @@ export const InstallCodeRunner = () => {
       </p>
       <ul className="flex list-decimal flex-col gap-4 pl-6 md:pl-12 md:pr-4">
         <li>Abre Visual Studio Code.</li>
-        <li>Ve a Extensions (Ctrl+Shift+X) y busca "Code Runner".</li>
+        <li>Ve a Extensions (Ctrl+Shift+X) y busca &apos;Code Runner&apos;.</li>
         <li>Instala la extensión.</li>
         <li>
           Ahora, puedes ejecutar tu código JavaScript directamente en Visual
-          Studio Code usando el botón "Run Code" o presionando Ctrl+Alt+N.
+          Studio Code usando el botón &quot;Run Code&quot; o presionando
+          Ctrl+Alt+N.
         </li>
       </ul>
       <p>

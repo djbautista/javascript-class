@@ -11,11 +11,12 @@ export const PrimerosPasos = () => {
       <section className="mb-6">
         <h2 className="mb-2 text-lg font-semibold">Hola Mundo</h2>
         <p className="mb-2">
-          Para comenzar con JavaScript, veamos cómo se ve un simple "Hola
-          Mundo":
+          Para comenzar con JavaScript, veamos cómo se ve un simple &quot;Hola
+          Mundo&quot;:
         </p>
         <pre className="rounded bg-gray-100 p-3 text-gray-800">
-          console.log(<InlineCode variant="secondary">'Hola Mundo'</InlineCode>
+          console.log(
+          <InlineCode variant="secondary">&quot;Hola Mundo&quot;</InlineCode>
           );
         </pre>
       </section>
@@ -27,19 +28,21 @@ export const PrimerosPasos = () => {
           <code>const</code>, o <code>var</code>:
         </p>
         <div className="flex flex-col gap-2 rounded bg-gray-100 p-3 text-gray-800">
-          <code className="text-gray-500">// Usando let</code>
+          <code className="text-gray-500">{'//'} Usando let</code>
           <code>
-            let <InlineCode>message</InlineCode> = '¡Hola Mundo!';
+            let <InlineCode>message</InlineCode> = &quot;¡Hola Mundo!&quot;;
           </code>
-          <code className="text-gray-500">// Usando const</code>
+          <code className="text-gray-500">{'//'} Usando const</code>
           <code>
             const <InlineCode>pi</InlineCode> = 3.14;
           </code>
           <code className="text-gray-500">
-            // Usando var (<span className="text-red-400">No recomendado</span>)
+            {'//'} Usando var (
+            <span className="text-red-400">No recomendado</span>)
           </code>
           <code>
-            var <InlineCode>oldSchool</InlineCode> = 'Esto es JavaScript';
+            var <InlineCode>oldSchool</InlineCode> = &quot;Esto es
+            JavaScript&quot;;
           </code>
         </div>
       </section>
@@ -64,7 +67,7 @@ export const PrimerosPasos = () => {
           </li>
           <li>
             <InlineCode>null</InlineCode> - un valor especial que representa
-            "ningún valor".
+            &quot;ningún valor&quot;.
           </li>
           <li>
             <InlineCode>undefined</InlineCode> - un valor especial que indica

@@ -32,7 +32,7 @@ export default function Wheel() {
       const containerWidth = wheelContainer.current?.clientWidth;
       setWheelSize(containerWidth / 3);
     }
-  }, [wheelContainer.current]);
+  }, [wheelContainer]);
 
   const handleNamesInputChange = (
     event: React.ChangeEvent<HTMLTextAreaElement>,
