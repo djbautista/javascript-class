@@ -22,7 +22,7 @@ const metodologiaContent = [
         <br />
         Los alumnos estudian los contenidos en casa <Highlight>antes</Highlight>
         de la clase, y ya en clase solo repasamos lo aprendido, y reforzamos el
-        conocimiento.'
+        conocimiento.
         <br />
         <br />
         Al iniciar cada sesión, su mentor hará tres a cinco preguntas al azar
