@@ -154,11 +154,8 @@ export default function Metodologia() {
         </Card>
       </section>
       <Footer className="flex flex-1 gap-8">
-        <Link href="./preparacion" className="text-3xl" target="_self">
+        <Link href="/" className="text-3xl" target="_self">
           ←
-        </Link>
-        <Link href="./clase" className="text-3xl" target="_self">
-          →
         </Link>
       </Footer>
     </div>
