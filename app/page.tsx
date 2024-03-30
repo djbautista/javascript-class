@@ -10,7 +10,9 @@ export default function Home() {
           <h1 className="text-4xl font-extrabold leading-none tracking-tight text-gray-900 text-white md:text-5xl lg:text-6xl">
             Módulo de Javascript
           </h1>
-          <h2 className="text-3xl font-extrabold text-white">Generación 33</h2>
+          <h2 className="text-3xl font-extrabold text-white">
+            Generación 33 y 32
+          </h2>
         </div>
         <div className="flex w-full justify-end py-0 md:w-auto md:py-1">
           <Image
@@ -35,6 +37,14 @@ export default function Home() {
         <div className="flex w-full max-w-[600px] flex-1 flex-col gap-8">
           <Card className="flex flex-col gap-4">
             <ul className="flex flex-col gap-2">
+              <li>
+                <Link
+                  href="/metodologia"
+                  className="text-gray-300 underline transition duration-150 ease-in-out hover:text-gray-100"
+                >
+                  Metodología
+                </Link>
+              </li>
               <li>
                 <Link
                   href="/sesiones/intro"
