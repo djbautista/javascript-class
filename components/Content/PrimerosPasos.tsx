@@ -225,9 +225,11 @@ export const PrimerosPasos = () => {
       <hr />
       <section>
         <Link
-          href="/https://lab.reaal.me/jsrobot/#level=1&language=en"
+          href="https://lab.reaal.me/jsrobot"
           className="underline"
           variant="secondary"
+          target="_blank"
+          replace
         >
           RobotJS
         </Link>

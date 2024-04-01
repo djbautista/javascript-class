@@ -99,6 +99,9 @@ export default function IntroClase() {
         <Link href="./evaluacion" className="text-3xl" target="_self">
           ←
         </Link>
+        <Link href="./actividad" className="text-3xl" target="_self">
+          →
+        </Link>
       </Footer>
     </div>
   );
