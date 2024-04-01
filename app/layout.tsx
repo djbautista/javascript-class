@@ -3,7 +3,10 @@ import { Poppins } from 'next/font/google';
 import './globals.css';
 import classNames from 'classnames';
 
-const font = Poppins({ subsets: ['latin'], weight: ['400', '700'] });
+const font = Poppins({
+  subsets: ['latin'],
+  weight: ['200', '300', '400', '500', '700'],
+});
 
 export const metadata: Metadata = {
   title: 'Kodemia | Javascript Module',
