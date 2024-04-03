@@ -7,7 +7,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center p-8 md:p-24">
       <header className="flex w-full flex-wrap-reverse justify-between gap-8">
         <div className="flex flex-1 flex-col gap-2">
-          <h1 className="text-4xl font-extrabold leading-none tracking-tight text-gray-900 text-white md:text-5xl lg:text-6xl">
+          <h1 className="text-4xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl">
             Módulo de Javascript
           </h1>
           <h2 className="text-3xl font-extrabold text-white">
@@ -53,7 +53,14 @@ export default function Home() {
                   Sesión 1 - Introducción a JS
                 </Link>
               </li>
-              <li>Sesión 2 - Funciones y scopes</li>
+              <li>
+                <Link
+                  href="/sesiones/sesion2"
+                  className="text-gray-300 underline transition duration-150 ease-in-out hover:text-gray-100"
+                >
+                  Sesión 2 - Funciones y scopes
+                </Link>
+              </li>
               <li>Sesión 3 - Intro a Arreglos y loops</li>
               <li>Sesión 4 - Arrow functions y ejercicios</li>
               <li>Sesión 5 - Callbacks, Funciones como argumentos (HELP)</li>
