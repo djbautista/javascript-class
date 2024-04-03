@@ -69,7 +69,7 @@ export default function IntroActividad() {
                 leaveFrom="transform scale-100 opacity-100"
                 leaveTo="transform scale-95 opacity-0"
               >
-                <Disclosure.Panel className="p-12 p-4 text-neutral-100">
+                <Disclosure.Panel className="p-4 text-neutral-100">
                   <ul className="flex list-inside list-decimal flex-col gap-8">
                     <li>
                       Guardar el Número de Órdenes y el Día del Mes: Declarar
