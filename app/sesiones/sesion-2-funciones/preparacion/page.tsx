@@ -96,7 +96,7 @@ export default function IntroPreparacion() {
         </Dialog.Panel>
       </Dialog>
       <Footer className="flex flex-1 gap-8">
-        <Link href="../sesion2" className="text-3xl" target="_self">
+        <Link href="../sesion-2-funciones" className="text-3xl" target="_self">
           ←
         </Link>
         <Link href="./evaluacion" className="text-3xl" target="_self">

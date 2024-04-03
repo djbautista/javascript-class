@@ -7,20 +7,10 @@ import { Disclosure, Transition } from '@headlessui/react';
 
 const evaluationContent = [
   {
-    icon: '🏹',
-    question: '¿Cuál es Diferencias entre funciones flecha y funciones "normales"?',
-    answer:
-      'Las funciones flecha (arrow functions) es una sintaxis más concisa para definir funciones "Normales" en JavaScript, pero en estas funciones no pueden ser usadas como constructores, no tienen argumentos y no tienes la propiedad super.',
-  },
-  {
-    icon: '✅',
-    question:'¿Cuándo usar funciones flecha?',
-    answer:'Son útiles cuando se necesitan funciones cortas y concisas, especialmente en situaciones donde se necesita un contexto léxico claro, como en métodos de objeto y funciones de callback.',
-  },
-  {
     icon: '🔠',
     question: 'Argumentos de una función',
-    answer: ' los argumentos de una función son los valores que se pasan a la función cuando se invoca, y pueden ser accedidos dentro del cuerpo de la función a través de los argumentos.',
+    answer:
+      ' los argumentos de una función son los valores que se pasan a la función cuando se invoca, y pueden ser accedidos dentro del cuerpo de la función a través de los argumentos.',
   },
   {
     icon: '◀',
@@ -31,42 +21,44 @@ const evaluationContent = [
   {
     icon: '🏃‍♂️',
     question: '¿Que son "salidas tempranas" en funciones?',
-    answer: 'Las salidas tempranas en funciones son una técnica útil para mejorar la legibilidad, eficiencia y robustez del código al devolver un valor y salir de la función temprano basándose en condiciones específicas. Esto ayuda a evitar cálculos innecesarios y manejar casos especiales de manera clara y efectiva.',
+    answer:
+      'Las salidas tempranas en funciones son una técnica útil para mejorar la legibilidad, eficiencia y robustez del código al devolver un valor y salir de la función temprano basándose en condiciones específicas. Esto ayuda a evitar cálculos innecesarios y manejar casos especiales de manera clara y efectiva.',
   },
   {
     icon: '🏁',
     question: '¿Cómo se ejecutan las funciones?',
-    answer: ' las funciones se ejecutan cuando son invocadas, es decir, cuando son llamadas desde otro lugar del código.',
+    answer:
+      ' las funciones se ejecutan cuando son invocadas, es decir, cuando son llamadas desde otro lugar del código.',
   },
   {
     icon: '❓',
-    question:'Que es el operador "()" en una funcion?',
-    answer: 'El operador "()" en JavaScript se utiliza para invocar funciones. Cuando colocas paréntesis al lado de un nombre de función, estás indicando que deseas ejecutar esa función.',
+    question: 'Que es el operador "()" en una funcion?',
+    answer:
+      'El operador "()" en JavaScript se utiliza para invocar funciones. Cuando colocas paréntesis al lado de un nombre de función, estás indicando que deseas ejecutar esa función.',
   },
   {
     icon: '👶',
     question: '¿Una variable puede guardar una función?',
-    answer: 'Sí, en JavaScript, una variable puede almacenar una función. Las funciones en JavaScript son objetos de primera clase, lo que significa que pueden ser tratadas como cualquier otro tipo de datos, como números, cadenas o arrays.',
-  },
-  {
-    icon: '⁉',
-    question: '¿Método o función? ¿son lo mismo?',
-    answer: 'La principal diferencia entre un método y una función en JavaScript es que un método está asociado a un objeto específico y puede acceder a las propiedades de ese objeto mediante la palabra clave this, mientras que una función es independiente y no está asociada a ningún objeto en particular.',
+    answer:
+      'Sí, en JavaScript, una variable puede almacenar una función. Las funciones en JavaScript son objetos de primera clase, lo que significa que pueden ser tratadas como cualquier otro tipo de datos, como números, cadenas o arrays.',
   },
   {
     icon: '🏠',
     question: '¿Que es Scope local?',
-    answer: 'El scope local se refiere al alcance de una variable, función o bloque de código dentro de una función. Las variables declaradas dentro de una función tienen un alcance local, lo que significa que solo pueden ser accedidas dentro de esa función y no están disponibles fuera de ella.',
+    answer:
+      'El scope local se refiere al alcance de una variable, función o bloque de código dentro de una función. Las variables declaradas dentro de una función tienen un alcance local, lo que significa que solo pueden ser accedidas dentro de esa función y no están disponibles fuera de ella.',
   },
   {
     icon: '🌍',
     question: '¿Que es Scope global?',
-    answer: 'el scope global se refiere al alcance de una variable, función o bloque de código que está disponible en todo el programa, es decir, fuera de cualquier función o bloque específico. Las variables declaradas fuera de las funciones tienen un alcance global y pueden ser accedidas y modificadas desde cualquier parte del código.',
+    answer:
+      'el scope global se refiere al alcance de una variable, función o bloque de código que está disponible en todo el programa, es decir, fuera de cualquier función o bloque específico. Las variables declaradas fuera de las funciones tienen un alcance global y pueden ser accedidas y modificadas desde cualquier parte del código.',
   },
   {
     icon: '🌟',
     question: '¿”var” qué es y por qué no se usa?',
-    answer: 'Aunque "var" todavía es válido en JavaScript, se recomienda evitar su uso en favor de "let" y "const" debido a sus comportamientos más predecibles y menos propensos a errores.',
+    answer:
+      'Aunque "var" todavía es válido en JavaScript, se recomienda evitar su uso en favor de "let" y "const" debido a sus comportamientos más predecibles y menos propensos a errores.',
   },
 ];
 

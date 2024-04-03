@@ -55,7 +55,7 @@ export default function Home() {
               </li>
               <li>
                 <Link
-                  href="/sesiones/sesion2"
+                  href="/sesiones/sesion-2-funciones"
                   className="text-gray-300 underline transition duration-150 ease-in-out hover:text-gray-100"
                 >
                   Sesión 2 - Funciones y scopes

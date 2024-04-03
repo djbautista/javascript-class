@@ -15,7 +15,9 @@ export default function Intro() {
           className="w-full flex-1 text-xl md:text-3xl"
         >
           <p>
-            Descubre las claves esenciales de las funciones y scopes en JavaScript, desde cómo las funciones encapsulan el comportamiento hasta cómo se manejan los scopes.
+            Descubre las claves esenciales de las funciones y scopes en
+            JavaScript, desde cómo las funciones encapsulan el comportamiento
+            hasta cómo se manejan los scopes.
           </p>
           <br />
           <ul className="list-disc pl-12">
@@ -26,7 +28,11 @@ export default function Intro() {
         </Card>
       </section>
       <Footer className="flex flex-1">
-        <Link href="./sesion2/preparacion" className="text-3xl" target="_self">
+        <Link
+          href="./sesion-2-funciones/preparacion"
+          className="text-3xl"
+          target="_self"
+        >
           →
         </Link>
       </Footer>

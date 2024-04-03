@@ -22,15 +22,21 @@ export default function IntroActividad() {
           <div className="text-md flex flex-col items-center gap-8 overflow-hidden py-4 font-light md:p-12">
             <h3>Calculadora de IMC (Índice de Masa Corporal)</h3>
             <p>
-              El Índice de Masa Corporal (IMC) es una medida que se utiliza para determinar si una persona tiene un peso saludable para su altura.
-              Ayuda a evaluar si una persona está en riesgo de sufrir problemas de salud relacionados con el peso, como enfermedades cardiovasculares, diabetes tipo 2, presión arterial alta, etc.
-              Se calcula dividiendo el peso (en kilogramos) por el cuadrado de la altura (en metros).
+              El Índice de Masa Corporal (IMC) es una medida que se utiliza para
+              determinar si una persona tiene un peso saludable para su altura.
+              Ayuda a evaluar si una persona está en riesgo de sufrir problemas
+              de salud relacionados con el peso, como enfermedades
+              cardiovasculares, diabetes tipo 2, presión arterial alta, etc. Se
+              calcula dividiendo el peso (en kilogramos) por el cuadrado de la
+              altura (en metros).
             </p>
             <p>
-              Desarrolla una aplicación web que permita a los usuarios calcular su IMC ingresando su peso (en kilogramos) y su altura (en metros). 
-              La aplicación debe mostrar el resultado del cálculo del IMC y proporcionar una interpretación del resultado basada en la siguiente tabla:
+              Desarrolla un programa simple que permita a los usuarios calcular
+              su IMC a partir de las variables peso (en kilogramos) y altura (en
+              metros). El programa realizar el cálculo del IMC y proporcionar en
+              consola uno de estos resultados basándose en la siguiente tabla:
             </p>
-            <table className='w-full border border-white'>
+            <table className="w-full border border-white">
               <tr>
                 <td>{' IMC < 18.5 '}</td>
                 <td>Bajo peso</td>
@@ -49,19 +55,11 @@ export default function IntroActividad() {
               </tr>
             </table>
 
-            <h4>Instrucciones:</h4>
-            <ol className="list-decimal">
-              <li>Crea una función llamada "calcularIMC" que tome dos parámetros: peso (en kilogramos) y altura (en metros).</li>
-              <li>Dentro de la función, calcula el IMC utilizando la fórmula: IMC = peso / (altura * altura).</li>
-              <li>Devuelve el valor del IMC calculado.</li>
-              <li>Crea una función llamada "interpretarIMC" que tome un parámetro IMC.</li>
-              <li>Dentro de la función, utiliza una serie de condicionales para interpretar el IMC y mostrar un mensaje correspondiente con la categoría del IMC (por ejemplo: "Bajo peso", "Peso saludable", "Sobrepeso", etc.).</li>
-              <li>Utiliza ambas funciones para calcular e interpretar el IMC de al menos tres personas diferentes, muestra los resultados en la consola del navegador.</li>
-            </ol>
             <span className="font-medium">Bonus</span>
             <p>
-              Asegúrate de que los usuarios ingresen valores válidos para el peso y la altura (números positivos).
-              Muestra mensajes de error o alertas si los datos ingresados no son válidos.
+              Evalua el caso cuando el valor IMC calculado no sea válido (NaN),
+              y muestra en consola un mensaje de error alertando que los valores
+              iniciales no son válidos.
             </p>
           </div>
           <div>
@@ -83,10 +81,18 @@ export default function IntroActividad() {
                 <Disclosure.Panel className="p-4 text-neutral-100">
                   <ol className="flex list-inside list-decimal flex-col gap-8">
                     <li>
-                      Comprender el Problema:Asegúrate de comprender qué es el IMC y cómo se calcula. IMC = peso / (altura * altura). 
+                      Debes crear y usar correctamente al menos dos funciones
+                      para este programa.
                     </li>
-                    <li> 
-                      Validación de Entrada: Asegurarte de que el usuario ingrese valores válidos para el peso y la altura.. 
+                    <li>
+                      Calcula el IMC utilizando la fórmula: IMC = peso / (altura
+                      * altura).
+                    </li>
+                    <li>
+                      Debes utilizar una serie de condicionales para interpretar
+                      el IMC y mostrar un mensaje correspondiente con la
+                      categoría del IMC (por ejemplo: &quot;Bajo peso&quot;,
+                      &quot;Peso saludable&quot;, &quot;Sobrepeso&quot;, etc.).
                     </li>
                   </ol>
                 </Disclosure.Panel>
