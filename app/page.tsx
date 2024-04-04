@@ -70,14 +70,7 @@ export default function Home() {
                 </Link>
                 
               </li>
-              <li>
-                <Link
-                  href="/sesiones/sesion-3-funciones-flecha"
-                  className="text-gray-300 underline transition duration-150 ease-in-out hover:text-gray-100"
-                >
-                  Sesión 4 - Objetos
-                </Link>
-              </li>
+              <li>Sesión 4 - Objetos</li>
               <li>Sesión 5 - Prototypes y Métodos de String</li>
             </ul>
           </Card>
