@@ -6,3 +6,5 @@ export * from './Sesion2InfoDialog1';
 export * from './Sesion2InfoDialog2';
 export * from './Sesion2InfoDialog3';
 export * from './Sesion2InfoDialog4';
+export * from './Sesion3InfoDialog1';
+export * from './Sesion3InfoDialog2';

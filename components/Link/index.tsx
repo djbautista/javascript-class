@@ -28,7 +28,7 @@ const Link = ({
     <NextLink
       {...props}
       className={classNames([
-        ' transition transition-colors duration-150 ease-in-out',
+        ' transition-colors duration-150 ease-in-out',
         variantsClasses[variant],
         className,
       ])}
