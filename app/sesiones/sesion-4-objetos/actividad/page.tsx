@@ -23,8 +23,10 @@ export default function IntroActividad() {
           <div className="text-md flex flex-col items-center gap-8 overflow-hidden py-4 font-light md:p-12">
             <h3>Sistema de gestión de libros</h3>
             <p>
-              Estás desarrollando un sistema de gestión de libros para una biblioteca. Como parte de este proyecto, necesitas crear una estructura de datos que represente un libro y su información asociada. 
-              Cada libro debe tener las siguientes propiedades:
+              Estás desarrollando un sistema de gestión de libros para una
+              biblioteca. Como parte de este proyecto, necesitas crear una
+              estructura de datos que represente un libro y su información
+              asociada. El objeto libro debe tener las siguientes propiedades:
             </p>
             <table className="w-full border border-white">
               <thead>
@@ -36,7 +38,10 @@ export default function IntroActividad() {
               <tbody>
                 <tr>
                   <td>Título del Libro</td>
-                  <td>El título del libro, que identifica de manera única el libro dentro de la biblioteca</td>
+                  <td>
+                    El título del libro, que identifica de manera única el libro
+                    dentro de la biblioteca
+                  </td>
                 </tr>
                 <tr>
                   <td>Autor del Libro</td>
@@ -44,7 +49,10 @@ export default function IntroActividad() {
                 </tr>
                 <tr>
                   <td>Género del Libro</td>
-                  <td>El género literario al que pertenece el libro, como ficción, no ficción, misterio, ciencia ficción, etc</td>
+                  <td>
+                    El género literario al que pertenece el libro, como ficción,
+                    no ficción, misterio, ciencia ficción, etc
+                  </td>
                 </tr>
                 <tr>
                   <td>Año de Publicación</td>
@@ -57,14 +65,15 @@ export default function IntroActividad() {
               </tbody>
             </table>
             <p>
-              Además de estas propiedades, necesitas implementar un método en el objeto del libro que permita imprimir la información completa del libro en la consola en un formato legible. 
-              Esta información debe incluir el título del libro, el autor, el año de publicación y el género del libro.
+              Además de estas propiedades, necesitas implementar un método en el
+              objeto del libro que permita imprimir la información completa del
+              libro en la consola en un formato legible. Esta información debe
+              incluir el título del libro, el autor, el año de publicación y el
+              género del libro.
             </p>
 
             <span className="font-medium">Bonus</span>
-            <p>
-              Crea una funcion para filtrar los libros por autor.
-            </p>
+            <p>Crea una función para filtrar los libros por autor.</p>
           </div>
           <div>
             <Disclosure>
@@ -86,13 +95,20 @@ export default function IntroActividad() {
                   <ol className="flex list-inside list-decimal flex-col gap-8">
                     <li>
                       <strong>Comprender la Estructura de un Objeto:</strong>{' '}
-                      Antes de empezar a escribir código, asegúrate de entender cómo se estructura un objeto en JavaScript. 
-                      Recuerda que un objeto está formado por pares de <InlineCode>clave-valor</InlineCode>, donde las claves son las propiedades y los valores son los datos asociados a esas propiedades.
+                      Antes de empezar a escribir código, asegúrate de entender
+                      cómo se estructura el objeto Libro. Recuerda que un objeto
+                      está formado por pares de{' '}
+                      <InlineCode>clave-valor</InlineCode>, donde las claves son
+                      las propiedades y los valores son los datos asociados a
+                      esas propiedades.
                     </li>
                     <li>
                       <strong>Identificar las Propiedades Necesarias:</strong>{' '}
-                      Revisa los requisitos del problema y determina qué propiedades son necesarias para representar un libro correctamente. 
-                      Asegúrate de incluir propiedades como el título, autor, año de publicación, editorial y género del libro en tu objeto.
+                      Revisa los requisitos del problema y determina qué
+                      propiedades son necesarias para representar un libro
+                      correctamente. Asegúrate de incluir propiedades como el
+                      título, autor, año de publicación, editorial y género del
+                      libro en tu objeto.
                     </li>
                   </ol>
                 </Disclosure.Panel>
