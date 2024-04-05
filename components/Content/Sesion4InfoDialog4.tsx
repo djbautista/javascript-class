@@ -119,7 +119,7 @@ export const Sesion4InfoDialog4 = () => {
         <code className="text-gray-500">
             &nbsp;&nbsp;{`prod_nombre: 'Camisa',`}
             <InlineCode variant="secondary">
-              {'//'} ¿Qué significa 'prod'?
+              {'//'} ¿Qué significa &apos;prod&apos;?
             </InlineCode>
             <br />
             &nbsp;&nbsp;{`prod_precio: 29.99,`}

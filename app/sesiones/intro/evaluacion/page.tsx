@@ -20,7 +20,7 @@ const evaluationContent = [
       'JavaScript se utiliza principalmente para crear páginas web interactivas y dinámicas.',
   },
   {
-    icon: '🪤',
+    icon: '#️⃣',
     question: 'El operador `#` sirve para...',
     answer: 'En realidad no existe el operador `#` en JavaScript',
   },
