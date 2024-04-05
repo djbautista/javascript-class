@@ -61,15 +61,29 @@ export default function Home() {
                   Sesión 2 - Funciones y scopes
                 </Link>
               </li>
-              <li>Sesión 3 - Intro a Arreglos y loops</li>
-              <li>Sesión 4 - Arrow functions y ejercicios</li>
-              <li>Sesión 5 - Callbacks, Funciones como argumentos (HELP)</li>
+              <li>
+                <Link
+                  href="/sesiones/sesion-3-funciones-flecha"
+                  className="text-gray-300 underline transition duration-150 ease-in-out hover:text-gray-100"
+                >
+                  Sesión 3 - Arrow functions y ejercicios
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/sesiones/sesion-4-objetos"
+                  className="text-gray-300 underline transition duration-150 ease-in-out hover:text-gray-100"
+                >
+                  Sesión 4 - Objetos
+                </Link>
+              </li>
+              <li>Sesión 5 - Prototypes y Métodos de String</li>
             </ul>
           </Card>
           <Card variant="transparent">
             <ul className="flex flex-col gap-2">
-              <li>Sesión 6 - Objetos</li>
-              <li>Sesión 7 - Prototypes y Métodos de String</li>
+              <li>Sesión 6 - Intro a Arreglos y loops</li>
+              <li>Sesión 7 - Callbacks, Funciones como argumentos (HELP)</li>
               <li>Sesión 8 - Date, Math y conversiones</li>
               <li>Sesión 9 - Métodos de Array</li>
               <li>Sesión 10 - Métodos de Array Pt2</li>

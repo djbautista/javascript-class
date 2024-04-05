@@ -8,7 +8,7 @@ import { Key } from 'react-feather';
 
 export default function IntroActividad() {
   return (
-    <div className="flex flex-col gap-12">
+    <article className="flex flex-col gap-12">
       <section className="flex w-full flex-wrap items-center justify-center gap-2 md:gap-8">
         <Card
           className="w-full max-w-3xl flex-1 md:min-h-[460px] xl:min-h-[620px]"
@@ -106,6 +106,6 @@ export default function IntroActividad() {
           ←
         </Link>
       </Footer>
-    </div>
+    </article>
   );
 }

@@ -10,7 +10,7 @@ const evaluationContent = [
     icon: '🔠',
     question: 'Argumentos de una función',
     answer:
-      ' los argumentos de una función son los valores que se pasan a la función cuando se invoca, y pueden ser accedidos dentro del cuerpo de la función a través de los argumentos.',
+      'Los argumentos de una función son los valores que se pasan a la función cuando se invoca, y pueden ser accedidos dentro del cuerpo de la función a través de los argumentos.',
   },
   {
     icon: '◀',
@@ -72,7 +72,7 @@ export default function IntroEvaluacion() {
         >
           <h1 className="text-2xl font-bold md:text-4xl">Evaluación</h1>
           <h2 className="pb-4 text-neutral-400 md:text-lg">
-            Evaluemos un poco de lo que has aprendido.
+            Evaluemos un poco de lo que has aprendido en la sesion 2.
           </h2>
 
           <div className="text-md flex flex-wrap overflow-hidden py-4 md:p-12">

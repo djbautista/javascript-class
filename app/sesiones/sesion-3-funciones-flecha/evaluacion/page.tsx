@@ -7,58 +7,16 @@ import { Disclosure, Transition } from '@headlessui/react';
 
 const evaluationContent = [
   {
-    icon: '🌐',
-    question: '¿JavaScript y Java son lo mismo?',
+    icon: '1️⃣',
+    question: 'Sintaxis más concisa con un solo argumento',
     answer:
-      'No, JavaScript y Java son completamente diferentes en términos de sintaxis, usos y conceptos.',
+      'Cuando una arrow function tiene un solo argumento, puedes omitir los paréntesis alrededor del argumento.',
   },
   {
-    icon: '✅',
-    question:
-      '¿Cuál es el propósito principal de JavaScript en el desarrollo web?',
+    icon: '◀',
+    question: 'Return implícito',
     answer:
-      'JavaScript se utiliza principalmente para crear páginas web interactivas y dinámicas.',
-  },
-  {
-    icon: '#️⃣',
-    question: 'El operador `#` sirve para...',
-    answer: 'En realidad no existe el operador `#` en JavaScript',
-  },
-  {
-    icon: '❓',
-    question: '¿Cuántos tipos de datos primitivos existen en JavaScript?',
-    answer:
-      'Existen 7 tipos de datos primitivos en JavaScript: string, number, bigint, boolean, null, undefined, symbol',
-  },
-  {
-    icon: '🧮',
-    question: '¿Qué operador se utiliza para la asignación en JavaScript?',
-    answer: 'El operador `=` se utiliza para la asignación.',
-  },
-  {
-    icon: '➕',
-    question: '¿Qué operador se utiliza para la adición en JavaScript?',
-    answer: 'El operador `+` se utiliza para la adición.',
-  },
-  {
-    icon: '🔀',
-    question:
-      '¿Cuál operador lógico representa la operación "Y" en JavaScript?',
-    answer: 'El operador `&&` representa la operación "Y".',
-  },
-  {
-    icon: '🚦',
-    question:
-      '¿Qué estructura de control se utiliza para ejecutar bloques de código basados en condiciones específicas?',
-    answer:
-      'La estructura `if` se utiliza para ejecutar bloques de código basados en condiciones específicas.',
-  },
-  {
-    icon: '⚖️',
-    question:
-      '¿Qué símbolo se utiliza para la comparación estricta en JavaScript?',
-    answer:
-      'El operador `===` se utiliza para la comparación estricta, comparando tanto el valor como el tipo.',
+      'Si el cuerpo de una arrow function consiste en una única expresión, puedes omitir la palabra clave "return" y la llave "{}". El valor de esa expresión se convierte automáticamente en el valor de retorno de la función.',
   },
 ];
 
@@ -72,7 +30,7 @@ export default function IntroEvaluacion() {
         >
           <h1 className="text-2xl font-bold md:text-4xl">Evaluación</h1>
           <h2 className="pb-4 text-neutral-400 md:text-lg">
-            Evaluemos un poco de lo que has aprendido.
+            Evaluemos un poco de lo que has aprendido en la sesion 3.
           </h2>
 
           <div className="text-md flex flex-wrap overflow-hidden py-4 md:p-12">

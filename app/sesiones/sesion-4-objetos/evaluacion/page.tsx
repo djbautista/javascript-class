@@ -7,58 +7,28 @@ import { Disclosure, Transition } from '@headlessui/react';
 
 const evaluationContent = [
   {
-    icon: '🌐',
-    question: '¿JavaScript y Java son lo mismo?',
+    icon: '🔣',
+    question: '¿Que valores se pueden guardar en un objeto?',
     answer:
-      'No, JavaScript y Java son completamente diferentes en términos de sintaxis, usos y conceptos.',
+      'En JavaScript, los objetos pueden contener una amplia variedad de valores, incluyendo: números, cadenas de texto, booleanos, arrays, objetos anidados, funciones, símbolos (a partir de ES6) valores nulos y valores indefinidos',
   },
   {
-    icon: '✅',
-    question:
-      '¿Cuál es el propósito principal de JavaScript en el desarrollo web?',
+    icon: '⏺',
+    question: 'El operador de acceso "."',
     answer:
-      'JavaScript se utiliza principalmente para crear páginas web interactivas y dinámicas.',
+      'En JavaScript, el operador de acceso "." se utiliza para acceder a las propiedades y métodos de un objeto. ',
   },
   {
-    icon: '#️⃣',
-    question: 'El operador `#` sirve para...',
-    answer: 'En realidad no existe el operador `#` en JavaScript',
-  },
-  {
-    icon: '❓',
-    question: '¿Cuántos tipos de datos primitivos existen en JavaScript?',
+    icon: '🏃‍♂️',
+    question: '¿Cómo acceder a los valores de un objeto usando el operador de acceso?',
     answer:
-      'Existen 7 tipos de datos primitivos en JavaScript: string, number, bigint, boolean, null, undefined, symbol',
+      'Para acceder a los valores de un objeto utilizando el operador de acceso ("."), simplemente sigue esta sintaxis: objeto.propiedad',
   },
   {
-    icon: '🧮',
-    question: '¿Qué operador se utiliza para la asignación en JavaScript?',
-    answer: 'El operador `=` se utiliza para la asignación.',
-  },
-  {
-    icon: '➕',
-    question: '¿Qué operador se utiliza para la adición en JavaScript?',
-    answer: 'El operador `+` se utiliza para la adición.',
-  },
-  {
-    icon: '🔀',
-    question:
-      '¿Cuál operador lógico representa la operación "Y" en JavaScript?',
-    answer: 'El operador `&&` representa la operación "Y".',
-  },
-  {
-    icon: '🚦',
-    question:
-      '¿Qué estructura de control se utiliza para ejecutar bloques de código basados en condiciones específicas?',
+    icon: '🤖',
+    question: '¿Cómo acceder a los valores de un objeto usando corchetes?',
     answer:
-      'La estructura `if` se utiliza para ejecutar bloques de código basados en condiciones específicas.',
-  },
-  {
-    icon: '⚖️',
-    question:
-      '¿Qué símbolo se utiliza para la comparación estricta en JavaScript?',
-    answer:
-      'El operador `===` se utiliza para la comparación estricta, comparando tanto el valor como el tipo.',
+      'Para acceder a los valores de un objeto utilizando corchetes ("[]"), puedes seguir esta sintaxis: objeto["propiedad"]',
   },
 ];
 
@@ -72,7 +42,7 @@ export default function IntroEvaluacion() {
         >
           <h1 className="text-2xl font-bold md:text-4xl">Evaluación</h1>
           <h2 className="pb-4 text-neutral-400 md:text-lg">
-            Evaluemos un poco de lo que has aprendido.
+            Evaluemos un poco de lo que has aprendido en la sesion 4.
           </h2>
 
           <div className="text-md flex flex-wrap overflow-hidden py-4 md:p-12">

@@ -1,6 +1,6 @@
 export const EsIgualJavaQueJavascript = () => {
   return (
-    <div className="flex flex-col items-center gap-4">
+    <article className="flex flex-col items-center gap-4">
       <iframe
         className="h-[200px] w-full md:h-[300px] md:w-2/3"
         src="https://www.youtube.com/embed/j4vjVetZPpM?si=MK8wRVS7JqEzgqRd&amp;start=15"
@@ -13,7 +13,7 @@ export const EsIgualJavaQueJavascript = () => {
       <hr className="h-[1px] w-full text-black" />
 
       <p className="flex flex-col gap-1">
-        <b>No!</b>
+        <strong>No!</strong>
         <span>
           La similitud en el nombre fue una decisión de marketing de Netscape y
           Sun Microsystems para capitalizar la popularidad de Java en ese
@@ -28,7 +28,7 @@ export const EsIgualJavaQueJavascript = () => {
         en 1995 por Brendan Eich mientras trabajaba en Netscape Communications
         Corporation, mientras que Java fue creado en 1991 por Sun Microsystems.
       </p>
-    </div>
+    </article>
   );
 };
 

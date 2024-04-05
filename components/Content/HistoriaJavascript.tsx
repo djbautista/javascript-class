@@ -4,7 +4,7 @@ import Link from '@/components/Link';
 
 export const HistoriaJavascript = () => {
   return (
-    <div className="flex flex-col gap-4">
+    <article className="flex flex-col gap-4">
       <Link
         href="https://www.jetbrains.com/lp/javascript-25/"
         variant="secondary"
@@ -43,14 +43,14 @@ export const HistoriaJavascript = () => {
         desarrollo web sino que también impulsó el nacimiento de un ecosistema
         entero, desde frameworks como Angular, React, y Vue, hasta herramientas
         como Webpack y Babel, redefiniendo lo que es posible hacer en la web (
-        <b>todo!</b>).
+        <strong>todo!</strong>).
       </p>
       <p>
         La historia de JavaScript es una de constante evolución y sorpresas,
         demostrando que, en el mundo de la tecnología, lo único constante es el
         cambio.
       </p>
-    </div>
+    </article>
   );
 };
 
