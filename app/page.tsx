@@ -68,9 +68,15 @@ export default function Home() {
                 >
                   Sesión 3 - Arrow functions y ejercicios
                 </Link>
-                
               </li>
-              <li>Sesión 4 - Objetos</li>
+              <li>
+                <Link
+                  href="/sesiones/sesion-4-objetos"
+                  className="text-gray-300 underline transition duration-150 ease-in-out hover:text-gray-100"
+                >
+                  Sesión 4 - Objetos
+                </Link>
+              </li>
               <li>Sesión 5 - Prototypes y Métodos de String</li>
             </ul>
           </Card>

@@ -8,3 +8,7 @@ export * from './Sesion2InfoDialog3';
 export * from './Sesion2InfoDialog4';
 export * from './Sesion3InfoDialog1';
 export * from './Sesion3InfoDialog2';
+export * from './Sesion4InfoDialog1';
+export * from './Sesion4InfoDialog2';
+export * from './Sesion4InfoDialog3';
+export * from './Sesion4InfoDialog4';
