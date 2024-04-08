@@ -12,3 +12,7 @@ export * from './Sesion4InfoDialog1';
 export * from './Sesion4InfoDialog2';
 export * from './Sesion4InfoDialog3';
 export * from './Sesion4InfoDialog4';
+export * from './Sesion5InfoDialog1';
+export * from './Sesion5InfoDialog2';
+export * from './Sesion5InfoDialog3';
+export * from './Sesion5InfoDialog4';
