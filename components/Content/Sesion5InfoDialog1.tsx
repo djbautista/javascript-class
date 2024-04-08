@@ -83,7 +83,7 @@ export const Sesion5InfoDialog1 = () => {
         <li>Finalmente, llamamos a <InlineCode>cargarMensaje</InlineCode> y pasamos <InlineCode>mostrarMensaje</InlineCode> como callback.</li>
       </ul>
       <p>
-        Después de 2 segundos, verás el mensaje "¡Hola desde el servidor!" impreso en la consola, demostrando cómo los callbacks nos permiten manejar operaciones asíncronas de manera efectiva en JavaScript.
+        Después de 2 segundos, verás el mensaje &quot;¡Hola desde el servidor!&quot; impreso en la consola, demostrando cómo los callbacks nos permiten manejar operaciones asíncronas de manera efectiva en JavaScript.
       </p>
     </article>
   );
