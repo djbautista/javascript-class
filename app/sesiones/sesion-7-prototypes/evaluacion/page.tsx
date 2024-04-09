@@ -7,16 +7,34 @@ import { Disclosure, Transition } from '@headlessui/react';
 
 const evaluationContent = [
   {
-    icon: '⏲',
-    question: '¿Que acción realiza la funcion setTimeout?',
+    icon: '🔲',
+    question: '¿Por qué se dice que todo en JS es un objeto?',
     answer:
-      'La función setTimeout es una función incorporada en JavaScript que se utiliza para programar una función para que se ejecute después de un cierto período de tiempo. Su sintaxis básica es la siguiente: setTimeout(funcion, tiempo);',
+      'La afirmación de que "todo en JavaScript es un objeto" refleja la naturaleza orientada a objetos del lenguaje y la forma en que está diseñado para trabajar con objetos y prototipos. Esta característica clave de JavaScript es lo que le da su flexibilidad y potencia como lenguaje de programación.',
   },
   {
-    icon: '⏳',
-    question: '¿Qué significado tiene asíncrono en javascript?',
+    icon: '👔',
+    question: '¿Qué es un método?',
     answer:
-      'Hace referencia a la capacidad de ejecutar operaciones de manera no secuencial, lo que significa que el código no se ejecuta en un orden estrictamente definido de principio a fin. En lugar de eso, las operaciones asíncronas pueden ocurrir en paralelo con otras operaciones o pueden esperar hasta que se cumpla cierta condición antes de ejecutarse.',
+      'En el contexto de JavaScript, los métodos son funciones que están vinculadas a objetos y pueden acceder y manipular los datos asociados con ese objeto. Estas funciones se definen como propiedades de un objeto y pueden ser llamadas utilizando la notación de punto ("objeto.metodo()").',
+  },
+  {
+    icon: '🔩',
+    question: '¿Qué es un atributo?',
+    answer:
+      'En el contexto de JavaScript, los métodos son funciones que están vinculadas a objetos y pueden acceder y manipular los datos asociados con ese objeto. Estas funciones se definen como propiedades de un objeto y pueden ser llamadas utilizando la notación de punto ("objeto.metodo()").',
+  },
+  {
+    icon: '👽',
+    question: '¿Que funcion realiza el metodo trim en strings?',
+    answer:
+      'En JavaScript, el método "trim()" es un método de la clase String que se utiliza para eliminar los espacios en blanco (espacios, tabulaciones, saltos de línea, etc.) desde ambos extremos de una cadena de texto y devolver la cadena resultante.',
+  },
+  {
+    icon: '🎎',
+    question: 'Diferencia entre replace y replaceAll',
+    answer:
+      'En resumen, "replace()" reemplaza solo la primera coincidencia de un patrón en una cadena, mientras que "replaceAll()" reemplaza todas las ocurrencias del patrón en la cadena.',
   },
 ];
 
@@ -30,7 +48,7 @@ export default function IntroEvaluacion() {
         >
           <h1 className="text-2xl font-bold md:text-4xl">Evaluación</h1>
           <h2 className="pb-4 text-neutral-400 md:text-lg">
-            Evaluemos un poco de lo que has aprendido en la sesion 5.
+            Evaluemos un poco de lo que has aprendido en la sesion 7.
           </h2>
 
           <div className="text-md flex flex-wrap overflow-hidden py-4 md:p-12">

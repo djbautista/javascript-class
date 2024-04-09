@@ -21,11 +21,11 @@ export const Sesion5InfoDialog1 = () => {
         los callbacks son funciones que se pasan como argumentos a otras funciones y se ejecutan después de que se completa una tarea. 
         Los callbacks son fundamentales en la programación, donde se necesita realizar operaciones que toman un tiempo desconocido para completarse, como la carga de datos desde un servidor o la lectura de un archivo.
       </p>
-      <p>
+      <p className="leading-8">
         La ventaja principal de los callbacks es que permiten que el código continúe ejecutándose sin esperar la finalización de una tarea.
         Cuando la tarea se completa, se llama al callback para manejar el resultado o realizar acciones adicionales.
       </p>
-      <p>
+      <p className="leading-8">
         Por ejemplo, en el contexto de la programación web, se pueden utilizar callbacks para manejar las respuestas de las solicitudes HTTP.
       </p>
       <section className="flex flex-col gap-2 rounded bg-gray-100 p-3 text-gray-800">
@@ -82,7 +82,7 @@ export const Sesion5InfoDialog1 = () => {
         <li>La función <InlineCode>mostrarMensaje</InlineCode> es el callback que se pasa a <InlineCode>cargarMensaje</InlineCode>. Se ejecutará cuando se complete la carga del mensaje y recibirá el mensaje como argumento.</li>
         <li>Finalmente, llamamos a <InlineCode>cargarMensaje</InlineCode> y pasamos <InlineCode>mostrarMensaje</InlineCode> como callback.</li>
       </ul>
-      <p>
+      <p className="leading-8">
         Después de 2 segundos, verás el mensaje &quot;¡Hola desde el servidor!&quot; impreso en la consola, demostrando cómo los callbacks nos permiten manejar operaciones asíncronas de manera efectiva en JavaScript.
       </p>
     </article>

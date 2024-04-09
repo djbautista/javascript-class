@@ -36,7 +36,7 @@ export const Sesion5InfoDialog3 = () => {
           Los callbacks también se utilizan para controlar el flujo de ejecución del código, especialmente en situaciones donde se requiere ejecutar una operación después de que otra haya finalizado. 
           Esto es común en el manejo de múltiples operaciones asíncronas en secuencia.
         </li>
-        <p className='mt-4'>
+        <p className='leading-8 mt-4'>
           Es importante tener en cuenta que con la introducción de promesas y async/await en JavaScript, hay alternativas más modernas y poderosas para manejar operaciones asíncronas. 
           Sin embargo, los callbacks siguen siendo una parte importante del ecosistema JavaScript y son ampliamente utilizados en muchas bibliotecas y frameworks.
         </p>

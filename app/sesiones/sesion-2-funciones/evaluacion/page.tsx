@@ -28,7 +28,7 @@ const evaluationContent = [
     icon: '🏁',
     question: '¿Cómo se ejecutan las funciones?',
     answer:
-      ' las funciones se ejecutan cuando son invocadas, es decir, cuando son llamadas desde otro lugar del código.',
+      'Las funciones se ejecutan cuando son invocadas, es decir, cuando son llamadas desde otro lugar del código.',
   },
   {
     icon: '❓',
