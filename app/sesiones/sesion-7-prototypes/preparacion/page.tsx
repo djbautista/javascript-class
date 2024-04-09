@@ -2,10 +2,9 @@
 
 import Card from '@/components/Card';
 import {
-  Sesion2InfoDialog1,
-  Sesion2InfoDialog2,
-  Sesion2InfoDialog3,
-  Sesion2InfoDialog4,
+  Sesion7InfoDialog1,
+  Sesion7InfoDialog2,
+  Sesion7InfoDialog3,
 } from '@/components/Content';
 import Footer from '@/components/Footer';
 import Link from '@/components/Link';
@@ -16,24 +15,19 @@ import { X } from 'react-feather';
 
 const preparationContent = [
   {
-    icon: '💪',
-    title: '¿Qué son funciones?',
-    content: <Sesion2InfoDialog1 />,
+    icon: '🤖',
+    title: '¿Qué es un prototipo?',
+    content: <Sesion7InfoDialog1 />,
   },
   {
-    icon: '❓',
-    title: '¿Para qué sirven las funciones?',
-    content: <Sesion2InfoDialog2 />,
+    icon: '✨',
+    title: 'Prototipos importantes',
+    content: <Sesion7InfoDialog2 />,
   },
   {
-    icon: '🔮',
-    title: '¿Qué son los scopes?',
-    content: <Sesion2InfoDialog3 />,
-  },
-  {
-    icon: '👀',
-    title: '¿Para qué sirven los scopes?',
-    content: <Sesion2InfoDialog4 />,
+    icon: '🏡',
+    title: 'Métodos de String',
+    content: <Sesion7InfoDialog3 />,
   },
 ];
 
@@ -55,7 +49,7 @@ export default function IntroPreparacion() {
         <Card className="w-full max-w-xl flex-1 md:min-h-[460px] xl:min-h-[620px]">
           <h1 className="text-2xl font-bold md:text-4xl">Preparación</h1>
           <h2 className="pb-4 text-neutral-400 md:text-lg">
-            Debes repasar este contenido antes de la sesión 2.
+            Debes repasar este contenido antes de la sesión 7.
           </h2>
 
           <div className="text-md flex flex-wrap py-4 md:p-12 md:text-3xl">
@@ -96,7 +90,7 @@ export default function IntroPreparacion() {
         </Dialog.Panel>
       </Dialog>
       <Footer className="flex flex-1 gap-8">
-        <Link href="../sesion-2-funciones" className="text-3xl" target="_self">
+        <Link href="../sesion-7-prototypes" className="text-3xl" target="_self">
           ←
         </Link>
         <Link href="./evaluacion" className="text-3xl" target="_self">

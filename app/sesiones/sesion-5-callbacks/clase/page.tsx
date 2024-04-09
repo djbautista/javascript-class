@@ -2,42 +2,43 @@
 
 import Card from '@/components/Card';
 import {
-  Sesion2InfoDialog1,
-  Sesion2InfoDialog2,
-  Sesion2InfoDialog3,
-  Sesion2InfoDialog4,
+  EsIgualJavaQueJavascript,
+  HistoriaJavascript,
+  InstallCodeRunner,
+  PrimerosPasos,
 } from '@/components/Content';
 import Footer from '@/components/Footer';
 import Link from '@/components/Link';
 
 import { Dialog } from '@headlessui/react';
+import Image from 'next/image';
 import { ReactNode, useMemo, useState } from 'react';
 import { X } from 'react-feather';
 
-const preparationContent = [
+const PreparationContent = [
   {
-    icon: '💪',
-    title: '¿Qué son funciones?',
-    content: <Sesion2InfoDialog1 />,
+    icon: '🧙🏻‍♂️',
+    title: 'Origen y usos de JavaScript',
+    content: <HistoriaJavascript />,
   },
   {
     icon: '❓',
-    title: '¿Para qué sirven las funciones?',
-    content: <Sesion2InfoDialog2 />,
+    title: 'JavaScript es lo mismo que Java?',
+    content: <EsIgualJavaQueJavascript />,
   },
   {
-    icon: '🔮',
-    title: '¿Qué son los scopes?',
-    content: <Sesion2InfoDialog3 />,
+    icon: '🏗️',
+    title: 'Preparación del Entorno de Desarrollo',
+    content: <InstallCodeRunner />,
   },
   {
-    icon: '👀',
-    title: '¿Para qué sirven los scopes?',
-    content: <Sesion2InfoDialog4 />,
+    icon: '🚼',
+    title: 'Primeros Pasos en JavaScript',
+    content: <PrimerosPasos />,
   },
 ];
 
-export default function IntroPreparacion() {
+export default function IntroClase() {
   interface DialogContent {
     title: string;
     content: ReactNode;
@@ -52,25 +53,24 @@ export default function IntroPreparacion() {
   return (
     <div className="flex flex-col gap-24">
       <section className="flex w-full flex-wrap items-center justify-center gap-2 md:gap-8">
-        <Card className="w-full max-w-xl flex-1 md:min-h-[460px] xl:min-h-[620px]">
-          <h1 className="text-2xl font-bold md:text-4xl">Preparación</h1>
+        <Card
+          className="w-full max-w-2xl flex-1 md:min-h-[460px] xl:min-h-[620px]"
+          variant="transparent"
+        >
+          <h1 className="text-2xl font-bold md:text-4xl">Clase</h1>
           <h2 className="pb-4 text-neutral-400 md:text-lg">
-            Debes repasar este contenido antes de la sesión 2.
+            Es ⏰ de la clase. Ahora aplica todo lo que aprendiste sobre callbacks y funciones como argumentos.
           </h2>
 
-          <div className="text-md flex flex-wrap py-4 md:p-12 md:text-3xl">
-            <ul className="flex flex-col gap-8">
-              {preparationContent.map(({ icon, title, content }, index) => (
-                <button
-                  key={index}
-                  className="flex items-center justify-start gap-2 text-left text-lg text-neutral-300 hover:text-white md:gap-4 md:text-3xl"
-                  onClick={() => setContent({ title, content })}
-                >
-                  <span>{icon}</span>
-                  <span>{title}</span>
-                </button>
-              ))}
-            </ul>
+          <div className="p-4 md:p-12">
+            <Image
+              className="w-full rounded-2xl"
+              src="/time.gif"
+              alt="Teacher"
+              width={600}
+              height={600}
+              unoptimized
+            />
           </div>
         </Card>
       </section>
@@ -92,14 +92,14 @@ export default function IntroPreparacion() {
               <X />
             </button>
           </Dialog.Title>
-          <div className="py-8">{dialogContent}</div>
+          <div className="overflow-y-scroll py-8">{dialogContent}</div>
         </Dialog.Panel>
       </Dialog>
       <Footer className="flex flex-1 gap-8">
-        <Link href="../sesion-2-funciones" className="text-3xl" target="_self">
+        <Link href="./evaluacion" className="text-3xl" target="_self">
           ←
         </Link>
-        <Link href="./evaluacion" className="text-3xl" target="_self">
+        <Link href="./actividad" className="text-3xl" target="_self">
           →
         </Link>
       </Footer>

@@ -77,13 +77,27 @@ export default function Home() {
                   Sesión 4 - Objetos
                 </Link>
               </li>
-              <li>Sesión 5 - Prototypes y Métodos de String</li>
+              <li>
+                <Link
+                  href="/sesiones/sesion-5-callbacks"
+                  className="text-gray-300 underline transition duration-150 ease-in-out hover:text-gray-100"
+                >
+                  Sesión 5 - Callbacks, Funciones como argumentos (HELP)
+                </Link>
+              </li>
             </ul>
           </Card>
           <Card variant="transparent">
             <ul className="flex flex-col gap-2">
               <li>Sesión 6 - Intro a Arreglos y loops</li>
-              <li>Sesión 7 - Callbacks, Funciones como argumentos (HELP)</li>
+              <li>
+                <Link
+                  href="/sesiones/sesion-7-prototypes"
+                  className="text-gray-300 underline transition duration-150 ease-in-out hover:text-gray-100"
+                >
+                  Sesión 7 - Prototypes y Métodos de String
+                </Link>
+              </li>
               <li>Sesión 8 - Date, Math y conversiones</li>
               <li>Sesión 9 - Métodos de Array</li>
               <li>Sesión 10 - Métodos de Array Pt2</li>

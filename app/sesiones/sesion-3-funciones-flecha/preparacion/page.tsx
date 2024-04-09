@@ -80,7 +80,7 @@ export default function IntroPreparacion() {
               <X />
             </button>
           </Dialog.Title>
-          <div className="overflow-y-scroll py-8">{dialogContent}</div>
+          <div className="py-8">{dialogContent}</div>
         </Dialog.Panel>
       </Dialog>
       <Footer className="flex flex-1 gap-8">
